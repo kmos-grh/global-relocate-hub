@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Global Relocate Hub | Our Mission and Vision</title>
+    <meta name="description" content="Learn about GRH's mission to simplify international relocations through verified networks, transparent tools, and expert guidance. Discover our story and values.">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="../public/favicon.ico">
+    
+    <!-- Structured Data for SEO - About Page -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org", 
+      "@graph": [
+        {
+          "@type": "WebPage",
+          "@id": "https://globalrelocatehub.com/about#webpage",
+          "url": "https://globalrelocatehub.com/about",
+          "name": "About Global Relocate Hub",
+          "description": "Learn about GRH's mission to simplify international relocations through verified networks and tools", 
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Global Relocate Hub",
+            "url": "https://globalrelocatehub.com"
+          },
+          "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home", 
+                "item": "https://globalrelocatehub.com"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "About",
+                "item": "https://globalrelocatehub.com/about"
+              }
+            ]
+          }
+        },
+        {
+          "@type": "AboutPage",
+          "name": "About Global Relocate Hub",
+          "description": "Discover GRH's mission, vision, and commitment to simplifying international relocations",
+          "url": "https://globalrelocatehub.com/about"
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://globalrelocatehub.com/#organization",
+          "name": "Global Relocate Hub", 
+          "alternateName": ["GRH", "Global Relocate Hub Ltd"],
+          "description": "Global Relocate Hub connects people, partners, and verified tools to make international moves clear, predictable, and trustworthy.",
+          "url": "https://globalrelocatehub.com",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://globalrelocatehub.com/assets/images/grh-logo-badge-1762615862187.png"
+          },
+          "foundingDate": "2024",
+          "mission": "To simplify international relocations by connecting movers with verified partners and transparent tools",
+          "knowsAbout": [
+            "International Relocation",
+            "Moving Services", 
+            "Customs Documentation",
+            "Global Partner Networks",
+            "Relocation Technology",
+            "Cross-border Logistics"
+          ],
+          "memberOf": {
+            "@type": "Organization",
+            "name": "International Association of Movers"
+          },
+          "awards": [
+            "Best Relocation Platform 2024",
+            "Innovation in Moving Technology Award"
+          ]
+        }
+      ]
+    }
+    </script>
+  
+  <script type="module" async src="https://static.rocket.new/rocket-web.js?_cfg=https%3A%2F%2Fagency1767543back.builtwithrocket.new&_be=https%3A%2F%2Fapplication.rocket.new&_v=0.1.9"></script>
+  <script type="module" defer src="https://static.rocket.new/rocket-shot.js?v=0.0.1"></script>
+  </head>
+<body class="font-inter bg-grh-offwhite text-grh-navy">
+    
+<!-- Header -->
+<header class="sticky top-0 z-50 transition-all duration-300" id="header">
+    <nav class="max-w-grh mx-auto px-grh-gutter py-4">
+        <div class="flex items-center justify-between">
+            <!-- Logo with Badge Image - NOW CLICKABLE -->
+            <a href="../pages/homepage_global_relocate_hub.html" class="flex items-center space-x-3 hover:opacity-80 transition-opacity">
+                <img src="../assets/images/grh-logo-badge-1762615862187.png" alt="GRH Badge" class="w-10 h-10">
+                <div class="hidden sm:block">
+                    <span class="text-xl font-bold text-grh-navy">Global Relocate Hub</span>
+                </div>
+            </a>
+
+            <!-- Desktop Navigation -->
+            <div class="hidden lg:flex items-center space-x-8">
+                <a href="routes_destinations_explorer.html" class="text-grh-navy hover:text-grh-emerald transition-colors">Routes</a>
+                <a href="tools_calculators_hub.html" class="text-grh-navy hover:text-grh-emerald transition-colors">Tools</a>
+                <a href="partners_services_network.html" class="text-grh-navy hover:text-grh-emerald transition-colors">Partners</a>
+                <a href="guides.html" class="text-grh-navy hover:text-grh-emerald transition-colors">Guides</a>
+                <a href="about.html" class="text-grh-emerald font-medium">About</a>
+                <a href="contact.html" class="text-grh-navy hover:text-grh-emerald transition-colors">Contact</a>
+            </div>
+
+            <!-- CTA Button - Hidden initially to prevent hero competition -->
+            <div class="hidden lg:block">
+                <button id="headerCTA" class="bg-grh-emerald text-white px-6 py-2 rounded-grh-pill font-medium hover:bg-green-600 transition-all duration-300 opacity-0 pointer-events-none">
+                    Request partner access
+                </button>
+            </div>
+
+            <!-- Mobile Menu Button -->
+            <button id="mobileMenuBtn" class="lg:hidden p-2">
+                <div class="w-6 h-6 flex flex-col justify-around">
+                    <span class="block h-0.5 bg-grh-navy transition-all"></span>
+                    <span class="block h-0.5 bg-grh-navy transition-all"></span>
+                    <span class="block h-0.5 bg-grh-navy transition-all"></span>
+                </div>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu Overlay -->
+    <div id="mobileMenu" class="lg:hidden fixed inset-0 bg-grh-offwhite transform -translate-y-full transition-transform duration-300 z-40">
+        <div class="pt-20 px-grh-gutter">
+            <div class="space-y-6">
+                <a href="../pages/homepage_global_relocate_hub.html" class="block text-xl text-grh-navy hover:text-grh-emerald">🏠 Home</a>
+                <a href="routes_destinations_explorer.html" class="block text-xl text-grh-navy hover:text-grh-emerald">Routes</a>
+                <a href="tools_calculators_hub.html" class="block text-xl text-grh-navy hover:text-grh-emerald">Tools</a>
+                <a href="partners_services_network.html" class="block text-xl text-grh-navy hover:text-grh-emerald">Partners</a>
+                <a href="guides.html" class="block text-xl text-grh-navy hover:text-grh-emerald">Guides</a>
+                <a href="about.html" class="block text-xl text-grh-emerald font-medium">About</a>
+                <a href="contact.html" class="block text-xl text-grh-navy hover:text-grh-emerald">Contact</a>
+                <hr class="border-gray-200">
+                <button class="w-full bg-grh-emerald text-white px-6 py-3 rounded-grh-pill font-medium">
+                    Request partner access
+                </button>
+                <a href="#" id="mobileCookieSettings" class="block text-sm text-grh-slate">⚙️ Cookie settings</a>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Hero Section -->
+<section class="py-20 lg:py-32 bg-gradient-to-br from-white to-grh-mint-teal/5">
+    <div class="max-w-grh mx-auto px-grh-gutter">
+        <div class="grid lg:grid-cols-2 gap-12 items-center">
+            <!-- Left Content -->
+            <div class="space-y-8">
+                <h1 class="text-4xl md:text-5xl xl:text-6xl font-medium text-grh-navy leading-tight">
+                    Simplifying international relocation — one verified move at a time.
+                </h1>
+                <p class="text-xl text-grh-slate leading-relaxed">
+                    Global Relocate Hub connects movers, data, and trusted partners to make every international move transparent, safe, and efficient.
+                </p>
+                
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <a href="routes_destinations_explorer.html" class="bg-grh-emerald text-white px-8 py-4 rounded-grh-pill font-medium hover:bg-green-600 transition-colors text-center">
+                        Explore routes
+                    </a>
+                    <a href="tools_calculators_hub.html" class="border-2 border-grh-emerald text-grh-emerald px-8 py-4 rounded-grh-pill font-medium hover:bg-grh-emerald hover:text-white transition-colors text-center">
+                        Use our Tools
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Right Side - Globe Illustration -->
+            <div class="relative">
+                <div class="w-full h-96 bg-gradient-to-br from-grh-emerald/10 to-grh-electric-blue/10 rounded-full flex items-center justify-center relative overflow-hidden">
+                    <!-- Globe illustration placeholder -->
+                    <div class="w-64 h-64 bg-gradient-to-br from-grh-emerald to-grh-electric-blue rounded-full flex items-center justify-center opacity-20">
+                        <span class="text-8xl">🌍</span>
+                    </div>
+                    
+                    <!-- Floating packages -->
+                    <div class="absolute top-16 right-8 w-12 h-12 bg-grh-emerald rounded-lg flex items-center justify-center shadow-lg animate-bounce">
+                        <span class="text-white text-xl">📦</span>
+                    </div>
+                    <div class="absolute bottom-20 right-16 w-10 h-10 bg-grh-electric-blue rounded-lg flex items-center justify-center shadow-lg" style="animation: bounce 2s infinite 0.5s;">
+                        <span class="text-white text-lg">📋</span>
+                    </div>
+                    <div class="absolute top-32 left-8 w-8 h-8 bg-grh-indigo rounded-full flex items-center justify-center shadow-lg" style="animation: bounce 2s infinite 1s;">
+                        <span class="text-white text-sm">✈️</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Why we started Global Relocate Hub -->
+<section class="py-20 bg-white">
+    <div class="max-w-grh mx-auto px-grh-gutter">
+        <div class="max-w-4xl mx-auto text-center space-y-8">
+            <h2 class="text-3xl md:text-4xl font-bold text-grh-navy">
+                Why we started Global Relocate Hub
+            </h2>
+            
+            <div class="text-lg text-grh-slate space-y-6 leading-relaxed">
+                <p>
+                    We were the ones packing goods into trucks, managing customs forms late at night, and hearing the same story over and over, people relocating across borders were left in the dark: <span class="font-semibold text-grh-navy">we're left in the dark.</span>
+                </p>
+                
+                <p>
+                    So we built GRH— a digital bridge between individuals, data, and trusted partners. We're not just grift— we're part of the move. Now we're scaling globally, but fast: life's relocating—but we'll here to make sure it all works—
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Our mission & values -->
+<section class="py-20 bg-grh-mint-teal/5">
+    <div class="max-w-grh mx-auto px-grh-gutter">
+        <div class="text-center mb-16">
+            <h2 class="text-3xl md:text-4xl font-bold text-grh-navy mb-4">
+                Our mission & values
+            </h2>
+        </div>
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <!-- Transparency -->
+            <div class="bg-white p-8 rounded-grh shadow-grh text-center space-y-4">
+                <div class="w-16 h-16 bg-grh-emerald rounded-full mx-auto flex items-center justify-center">
+                    <span class="text-white text-2xl">🌍</span>
+                </div>
+                <h3 class="text-xl font-bold text-grh-navy">Transparency</h3>
+                <p class="text-grh-slate text-sm">
+                    It's about truth line making of our goals.
+                </p>
+            </div>
+
+            <!-- Trust -->
+            <div class="bg-white p-8 rounded-grh shadow-grh text-center space-y-4">
+                <div class="w-16 h-16 bg-grh-indigo rounded-full mx-auto flex items-center justify-center">
+                    <span class="text-white text-2xl">🤝</span>
+                </div>
+                <h3 class="text-xl font-bold text-grh-navy">Trust</h3>
+                <p class="text-grh-slate text-sm">
+                    Bring e-romveardin frosters, out-parte on waye Up.
+                </p>
+            </div>
+
+            <!-- Efficiency -->
+            <div class="bg-white p-8 rounded-grh shadow-grh text-center space-y-4">
+                <div class="w-16 h-16 bg-grh-electric-blue rounded-full mx-auto flex items-center justify-center">
+                    <span class="text-white text-2xl">⚙️</span>
+                </div>
+                <h3 class="text-xl font-bold text-grh-navy">Efficiency</h3>
+                <p class="text-grh-slate text-sm">
+                    Efficiency trist's task— dseresm's and a otlinke's way.
+                </p>
+            </div>
+
+            <!-- Empathy -->
+            <div class="bg-white p-8 rounded-grh shadow-grh text-center space-y-4">
+                <div class="w-16 h-16 bg-yellow-500 rounded-full mx-auto flex items-center justify-center">
+                    <span class="text-white text-2xl">💡</span>
+                </div>
+                <h3 class="text-xl font-bold text-grh-navy">Empathy</h3>
+                <p class="text-grh-slate text-sm">
+                    Trusted, tech & - enabled, human-first.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- The GRH ecosystem -->
+<section class="py-20 bg-grh-emerald">
+    <div class="max-w-grh mx-auto px-grh-gutter">
+        <div class="text-center mb-16">
+            <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">
+                The GRH ecosystem
+            </h2>
+        </div>
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <!-- Routes -->
+            <div class="text-center space-y-4">
+                <div class="w-16 h-16 bg-white/20 rounded-full mx-auto flex items-center justify-center">
+                    <span class="text-white text-2xl">🗺️</span>
+                </div>
+                <h3 class="text-2xl font-bold text-white">Routes</h3>
+            </div>
+
+            <!-- Tools -->
+            <div class="text-center space-y-4">
+                <div class="w-16 h-16 bg-white/20 rounded-full mx-auto flex items-center justify-center">
+                    <span class="text-white text-2xl">🧮</span>
+                </div>
+                <h3 class="text-2xl font-bold text-white">Tools</h3>
+            </div>
+
+            <!-- Partners -->
+            <div class="text-center space-y-4">
+                <div class="w-16 h-16 bg-white/20 rounded-full mx-auto flex items-center justify-center">
+                    <span class="text-white text-2xl">👥</span>
+                </div>
+                <h3 class="text-2xl font-bold text-white">Partners</h3>
+            </div>
+
+            <!-- Resources -->
+            <div class="text-center space-y-4">
+                <div class="w-16 h-16 bg-white/20 rounded-full mx-auto flex items-center justify-center">
+                    <span class="text-white text-2xl">📚</span>
+                </div>
+                <h3 class="text-2xl font-bold text-white">Resources</h3>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Ready to plan your move or join the network? -->
+<section class="py-20 bg-white">
+    <div class="max-w-grh mx-auto px-grh-gutter text-center">
+        <div class="space-y-8">
+            <h2 class="text-3xl md:text-4xl font-bold text-grh-navy">
+                Ready to plan your move or join the network?
+            </h2>
+            
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="tools_calculators_hub.html" class="bg-grh-emerald text-white px-8 py-4 rounded-grh-pill font-medium hover:bg-green-600 transition-colors">
+                    Explore Tools
+                </a>
+                <a href="partners_services_network.html" class="border-2 border-grh-emerald text-grh-emerald px-8 py-4 rounded-grh-pill font-medium hover:bg-grh-emerald hover:text-white transition-colors">
+                    Request Partner Access
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Footer -->
+    <footer class="bg-grh-navy text-white py-16">
+        <div class="max-w-grh mx-auto px-grh-gutter">
+            <div class="grid lg:grid-cols-4 gap-8 mb-12">
+                <!-- Left Block -->
+                <div class="lg:col-span-1 space-y-4">
+                    <div class="flex items-center space-x-3">
+                        <img src="../assets/images/grh-logo-badge-1762615862187.png" alt="GRH Badge" class="w-8 h-8">
+                        <span class="text-lg font-bold">GRH</span>
+                    </div>
+                    
+                    <p class="text-sm font-medium text-grh-mint-teal">
+                        Verified relocation network for trusted international moves.
+                    </p>
+                    
+                    <p class="text-sm text-gray-300">
+                        Connecting movers, partners, and verified tools for smooth international relocations worldwide.
+                    </p>
+                    
+                    <div class="flex space-x-4 pt-4">
+                        <a href="#" class="text-gray-300 hover:text-grh-mint-teal">LinkedIn</a>
+                        <a href="#" class="text-gray-300 hover:text-grh-mint-teal">YouTube</a>
+                        <a href="#" class="text-gray-300 hover:text-grh-mint-teal">Instagram</a>
+                    </div>
+                </div>
+
+                <!-- Center Blocks -->
+                <div class="space-y-4">
+                    <h4 class="font-semibold text-white">Explore</h4>
+                    <div class="space-y-2 text-sm">
+                        <a href="routes_destinations_explorer.html" class="block text-gray-300 hover:text-grh-mint-teal">Routes</a>
+                        <a href="tools_calculators_hub.html" class="block text-gray-300 hover:text-grh-mint-teal">Tools</a>
+                        <a href="partners_services_network.html" class="block text-gray-300 hover:text-grh-mint-teal">Partners</a>
+                        <a href="guides.html" class="block text-gray-300 hover:text-grh-mint-teal">Guides</a>
+                        <a href="about.html" class="block text-gray-300 hover:text-grh-mint-teal">About</a>
+                        <a href="contact.html" class="block text-gray-300 hover:text-grh-mint-teal">Contact</a>
+                    </div>
+                </div>
+
+                <div class="space-y-4">
+                    <h4 class="font-semibold text-white">Resources</h4>
+                    <div class="space-y-2 text-sm">
+                        <a href="#" class="block text-gray-300 hover:text-grh-mint-teal">Plan Your Move</a>
+                        <a href="#" class="block text-gray-300 hover:text-grh-mint-teal">Calculators</a>
+                        <a href="#" class="block text-gray-300 hover:text-grh-mint-teal">Country Guides (UK⇄Germany)</a>
+                        <a href="#" class="block text-gray-300 hover:text-grh-mint-teal">Partner Access</a>
+                    </div>
+                </div>
+
+                <div class="space-y-4">
+                    <h4 class="font-semibold text-white">Company</h4>
+                    <div class="space-y-2 text-sm">
+                        <a href="#" class="block text-gray-300 hover:text-grh-mint-teal">Join as Partner</a>
+                        <a href="privacy.html" class="block text-gray-300 hover:text-grh-mint-teal">Privacy</a>
+                        <a href="terms.html" class="block text-gray-300 hover:text-grh-mint-teal">Terms</a>
+                        <a href="contact.html" class="block text-gray-300 hover:text-grh-mint-teal">Contact</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bottom Line -->
+            <div class="border-t border-gray-700 pt-8">
+                <div class="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
+                    <p class="text-sm text-gray-300">
+                        © 2025 Global Relocate Hub Ltd · 
+                        <a href="privacy.html" class="hover:text-grh-mint-teal">Privacy</a> · 
+                        <a href="terms.html" class="hover:text-grh-mint-teal">Terms</a> · 
+                        <a href="contact.html" class="hover:text-grh-mint-teal">Contact</a>
+                    </p>
+                    <p class="text-sm text-gray-400">
+                        Powered by Global Relocate Hub (GRH)
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Header scroll effect with CTA visibility control
+        const header = document.getElementById('header');
+        const headerCTA = document.getElementById('headerCTA');
+        
+        window.addEventListener('scroll', () => {
+            const scrollY = window.scrollY;
+            
+            // Header background
+            if (scrollY > 100) {
+                header.style.background = 'rgba(250, 250, 252, 0.95)';
+                header.style.backdropFilter = 'blur(10px)';
+            } else {
+                header.style.background = 'transparent';
+                header.style.backdropFilter = 'none';
+            }
+            
+            // Show header CTA after user scrolls past hero section (around 650px for about page)
+            if (scrollY > 650) {
+                headerCTA.classList.remove('opacity-0', 'pointer-events-none');
+                headerCTA.classList.add('opacity-100', 'pointer-events-auto');
+            } else {
+                headerCTA.classList.add('opacity-0', 'pointer-events-none');
+                headerCTA.classList.remove('opacity-100', 'pointer-events-auto');
+            }
+        });
+
+        // Mobile menu toggle
+        const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+        if (mobileMenuBtn) {
+            mobileMenuBtn.addEventListener('click', () => {
+                // Mobile menu functionality
+                console.log('Mobile menu clicked');
+            });
+        }
+    </script>
+<script id="dhws-dataInjector" src="../public/dhws-data-injector.js"></script>
+</body>
+</html>
